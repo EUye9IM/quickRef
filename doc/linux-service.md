@@ -18,7 +18,7 @@ Linux 能够使用 systemd 管理服务，包管理软件安装的服务，其 s
 
 例如，我有一个名为filebrowser的服务，该服务可执行文件位于 `/opt/filebrowser/filebrowser` 。
 
-```toml
+```ini
 [Unit]
 Description=start filebrower https service on port 80
 Documentation=https://github.com/filebrowser/filebrowser
