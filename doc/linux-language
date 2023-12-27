@@ -1,0 +1,11 @@
+# linux-language
+
+不同的发行版有不同控制语言和地区的方式。
+
+<!-- LANG_ALL -->
+
+## Rocky Linux
+
+`dnf list | grep glibc-langpack` 查看可用的语言包
+`localectl list-locales` 找语言支持
+`localectl set-locale LANG="zh_CN.utf8"`设定中文
